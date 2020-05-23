@@ -5,6 +5,8 @@
       <h5>Already Have an account</h5>
       <Login />
     </div>
+    <br />
+    <hr />
     <div>
       <h5>Create an account with WallX</h5>
       <Register />

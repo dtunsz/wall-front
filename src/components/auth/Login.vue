@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="me">
         <p>Login</p>
         <form method="post">
             merchant ID

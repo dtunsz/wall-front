@@ -22,6 +22,12 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/About.vue")
   },
   {
+    path: "/admin/analytics",
+    name: "AdminAnalytics",
+    component: () =>
+      import("../views/AdminAnalytics.vue")
+  },
+  {
     path: "/merchant/analytics",
     name: "MerchantAnalytics",
     component: MerchantAnalytics
@@ -31,6 +37,12 @@ const routes = [
     name: "Auth",
     component: () =>
       import("../views/Auth.vue")
+  },
+  {
+    path: "/merchant/bank",
+    name: "MerchantBank",
+    component: () =>
+      import("../views/MerchantBank.vue")
   },
 ];
 
