@@ -7,35 +7,43 @@
         <div class="side-nav__devider my-6"></div>
         <ul>
             <li>
-                <a href="" class="side-menu side-menu--active">
+                <router-link to="/merchant/analytics" class="side-menu side-menu--active">
                     <div class="side-menu__icon"> <i data-feather="home"></i> </div>
                     <div class="side-menu__title"> Analytics </div>
-                </a>
+                </router-link>
             </li>
 
             <li>
-                <a href="" class="side-menu">
+                <router-link to="/merchant/profile" class="side-menu">
                     <div class="side-menu__icon"> <i data-feather="home"></i> </div>
                     <div class="side-menu__title"> Profile </div>
-                </a>
+                </router-link>
             </li>
             <li>
-                <a href="" class="side-menu">
+                <router-link to="/merchant/bank" class="side-menu">
                     <div class="side-menu__icon"> <i data-feather="home"></i> </div>
                     <div class="side-menu__title"> Bank </div>
-                </a>
+                </router-link>
+
             </li>
             <li>
-                <a href="" class="side-menu">
+                <router-link to="/merchant/supervisor" class="side-menu">
                     <div class="side-menu__icon"> <i data-feather="home"></i> </div>
                     <div class="side-menu__title"> Supervisor </div>
-                </a>
+                </router-link>
             </li>
             <li>
-                <a href="" class="side-menu">
+                <router-link to="/merchant/withdrawal" class="side-menu">
                     <div class="side-menu__icon"> <i data-feather="home"></i> </div>
                     <div class="side-menu__title"> Withdrawal </div>
-                </a>
+                </router-link>
+            </li>
+
+            <li>
+                <router-link to="/admin/analytics" class="side-menu">
+                    <div class="side-menu__icon"> <i data-feather="home"></i> </div>
+                    <div class="side-menu__title"> Admin </div>
+                </router-link>
             </li>
 
             

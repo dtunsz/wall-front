@@ -1,7 +1,7 @@
 <template>
-    <div class="admin-ui">
+    <div class="light light-sidebar theme-white">
         <!-- <h1>Admin</h1> -->
-        <div class="loader"></div>
+        <!-- <div class="loader"></div> -->
         <div id="app">
             <div class="main-wrapper main-wrapper-1">
             <TopView />
@@ -14,7 +14,9 @@
                     </li>
                     <li class="breadcrumb-item">
                     <a href="index.html">
-                        <i data-feather="home"></i></a>
+                        <!-- <i data-feather="home"></i> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    </a>
                     </li>
                     <li class="breadcrumb-item active">Dashboard</li>
                 </ul>
@@ -900,6 +902,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+    @import url("../css/app.min.css");
+    @import url("../css/style.css");
+    @import url("../css/components.css");
 </style>

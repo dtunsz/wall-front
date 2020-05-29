@@ -166,20 +166,22 @@
             </div>
             <ul class="sidebar-menu">
                 <!-- <li class="menu-header">Main</li> -->
-                <li class="active"><a class="nav-link" href="vector-map.html"><i data-feather="airplay"></i>
+                <li class="active"><a class="nav-link" href="vector-map.html">
+                    <!-- <i data-feather="airplay"></i> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-airplay"><path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"></path><polygon points="12 15 17 21 7 21 12 15"></polygon></svg>
                 <span>Analytics</span></a>
                 </li>
 
-                <li class="active"><a class="nav-link" href="vector-map.html"><i data-feather="map-pin"></i>
+                <li class=""><a class="nav-link" href="vector-map.html"><i data-feather="map-pin"></i>
                 <span>Users</span></a>
                 </li>
 
-                <li class="active"><a class="nav-link" href="vector-map.html"><i data-feather="map-pin"></i>
+                <li class=""><a class="nav-link" href="vector-map.html"><i data-feather="map-pin"></i>
                 <span>Merchants</span></a>
                 </li>
 
                 
-                <li class="active"><a class="nav-link" href="vector-map.html"><i data-feather="briefcase"></i>
+                <li class=""><a class="nav-link" href="vector-map.html"><i data-feather="briefcase"></i>
                 <span>Transactions</span></a>
                 </li>
 
